@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+
+# VSCode or JetBrains IDE
+.vscode/
+.idea/
+
+# Environment & config
+.env
+*.env
+
+# Firebase service account (never commit this!)
+firebase-service-account.json
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Uvicorn reload files
+reload.*.json
+
+.bruno/
